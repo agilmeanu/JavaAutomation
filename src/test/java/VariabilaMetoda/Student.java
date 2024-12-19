@@ -39,6 +39,9 @@ public class Student {
     public Character Sex;
     public Boolean AreDiploma;
 
+
+
+
 @Test
     public void prezentareStudent(){
         Nume="Coco";
