@@ -43,23 +43,31 @@ public class Student {
 
 
 @Test
-    public void prezentareStudent(){
-        Nume="Coco";
-        Prenume="Crina";
-        Varsta=10;
-        Strada="Valea Plopilor";
-        Inaltime=165.5;
-        Greutate=25f;
-        Sex='F';
-        AreDiploma=false;
+    public void prezentareStudent() {
+    Nume = "Coco";
+    Prenume = "Crina";
+    Varsta = 10;
+    Strada = "Valea Plopilor";
+    Inaltime = 165.5;
+    Greutate = 25f;
+    Sex = 'F';
+    AreDiploma = false;
 
-        System.out.println(Nume+" "+Prenume);
-        System.out.println(Prenume);
-        System.out.println(Varsta);
-        System.out.println(Strada);
-        System.out.println(Inaltime);
-        System.out.println(Greutate);
-        System.out.println(Sex);
-        System.out.println(AreDiploma);
+    System.out.println("Numele studentului este: " + Nume + " " + Prenume);
+    System.out.println("Adresa studentului este: " + Strada);
+    System.out.println("Are varsta de: " + Varsta + " Ani");
+    System.out.println("Are inaltimea de: " + Inaltime + " m");
+    System.out.println("Greutatea lui este: " + Greutate + " Kg");
+    System.out.println("Sexul Studentului: " + Sex);
+    System.out.println("Are diploma? " + AreDiploma);
+
+    calculMedie();
+}
+    public void calculMedie(){
+        Integer nota1=9;
+        Integer nota2=8;
+        Integer nota3=7;
+        Integer medie=(nota1+nota2+nota3)/3;
+        System.out.println("Media studentului este: " +medie);
     }
 }
